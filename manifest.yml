@@ -2,3 +2,4 @@
 applications:
 - name: asgharlabs-time
   memory: 128M
+command: npm start
