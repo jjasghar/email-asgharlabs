@@ -1,6 +1,6 @@
 
 const net = require('net');
-const portNumber = process.argv[2] || 8000;
+const portNumber = process.argv[2] || 8080;
 
 const server = net.createServer((socket) => {
   let time = Math.floor(new Date() / 1000)
