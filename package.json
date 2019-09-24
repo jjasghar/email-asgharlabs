@@ -1,0 +1,19 @@
+{
+  "name": "email-asgharlabs",
+  "version": "1.0.0",
+  "description": "outputs epoch time with asgharlabs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjasghar/email-asgharlabs.git"
+  },
+  "author": "JJ Asghar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jjasghar/email-asgharlabs/issues"
+  },
+  "homepage": "https://github.com/jjasghar/email-asgharlabs#readme"
+}
