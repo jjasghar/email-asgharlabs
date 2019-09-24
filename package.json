@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jjasghar/email-asgharlabs/issues"
   },
-  "homepage": "https://github.com/jjasghar/email-asgharlabs#readme"
+  "homepage": "https://github.com/jjasghar/email-asgharlabs#readme",
+  "scripts": {
+    "start": "node app.js"
+  }
 }
