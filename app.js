@@ -1,19 +1,15 @@
 
-const net = require('net');
-const portNumber = process.argv[2] || 8080;
+const http = require('http');
 
-const server = net.createServer((socket) => {
+var server = http.createServer(function(request, response) {
   let time = Math.floor(new Date() / 1000);
 
   let email = time + "@asgharlabs.io";
 
-  socket.write("email is: " + email);
-  socket.end("\n");
+  response.writeHead(200, {"Content-Type": "text/plain"});
+  response.end("email is: " + email);
 
-}).on('error', (err) => {
-  // handle errors here
-  throw err;
 });
 
-
-server.listen(portNumber);
+var port = 8080;
+server.listen(port);
