@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/jjasghar/email-asgharlabs#readme",
   "scripts": {
-    "start": "node app.js"
+    "start": "npm install && node app.js"
   }
 }
